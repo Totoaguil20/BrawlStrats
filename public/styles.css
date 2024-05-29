@@ -1,0 +1,367 @@
+/* Estilos generales */
+@font-face {
+    font-family: 'Nougat-ExtraBlack';
+    src: url('fonts/Nougat-ExtraBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Nougat-ExtraBlack', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Imagenes/BRAWL-FONDO-VIOLETA.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url('Imagenes/BS.jpg');
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.secciones {
+    width: calc(50% - 10px);
+    margin-bottom: 40px;
+    background-color: #ffffff73;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Buscador {
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    margin: 30px;
+    border-radius: 40px;
+    color: #000000;
+}
+
+button,
+input {
+    font-family: 'Nougat-ExtraBlack', Arial, sans-serif;
+}
+
+.MAPAS {
+    align-items: center;
+    text-align: center;
+}
+
+#busqueda {
+    background-color: #ffffff;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.brawl-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #f3a542;
+    border-radius: 20px;
+    background-color: #ffc966;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.brawl-btn:hover {
+    background-color: #ffbc70;
+    border-color: #f39c12;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.estadisticas-jugador {
+    background-color: #131313;
+    -webkit-text-stroke: 1px black;
+    color: #fafafa;
+}
+
+#boton-busqueda {
+    margin: 10px;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.1);
+}
+
+header h1,
+footer p {
+    margin: 0;
+}
+
+/* Estilos para las columnas de datos */
+.columna-dat {
+    flex: 1;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+.fila-perfil {
+    margin: 10px;
+}
+
+.mostrar-dato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #676767;
+}
+
+.numero {
+    margin-left: 10px;
+    /* Ajusta el margen según sea necesario */
+    text-align: center;
+    /* Esto asegura que el texto dentro del span esté centrado */
+
+}
+
+.imagen-perfil {
+    padding: 10px;
+
+}
+
+
+
+.columna-dat {
+    margin: 5px;
+    background-color: #ffffff;
+    color: #eeeeee;
+
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+
+}
+
+.fila-estadistica {
+    justify-content: center;
+    background-color: #676767;
+    height: auto;
+    width: 500px;
+}
+
+
+
+.contenedor-perfil {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    /* Otros estilos para el contenedor padre */
+}
+
+/* Otros estilos aquí */
+.hidden {
+    display: none;
+    color: red;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.fila {
+    display: flex;
+}
+
+.fila-perfil {
+    display: flex;
+    justify-content: flex-start;
+    /* Alinea las columnas a la izquierda */
+}
+
+.imagen {
+    transform: rotate(5deg);
+    /* Ajusta el ángulo de rotación según tus necesidades */
+}
+
+.columna {
+    flex: 1;
+    border: 1px solid black;
+    /* Para visualizar mejor las columnas */
+    padding: 10px;
+    /* Ajusta el espaciado según tus necesidades */
+    text-align: center;
+    /* Centra el contenido horizontalmente */
+}
+
+header {
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.1);
+}
+
+header h1,
+footer p {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos para la sección de mapas */
+
+#mapas {
+    margin-bottom: 20px;
+}
+
+#mapas h2 {
+    margin-top: 0;
+}
+
+#lista-mapas {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista-mapas li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de mejores brawlers */
+
+
+
+
+
+
+
+.container-nav {
+
+    display: flex;
+
+    box-shadow: 1px 5px 10px #00000080;
+    margin: -10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+
+
+#mejores-brawlers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+#mejores-brawlers img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.nav-links {
+    display: block;
+}
+
+.nav-links-mobile {
+    display: none;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.estadisticas-jugador {
+    display: flex;
+    flex-direction: column;
+}
+
+.fila-estadistica {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.etiqueta {
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.valor {
+    flex: 1;
+}
+
+h2 {
+    text-align: center;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px auto;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url("Imagenes/Movil-Background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links-mobile {
+        display: block;
+    }
+}
+
+.button-menu-toggle {
+    background-color: #12eaf6;
+    display: block;
+    font-family: 'Nougat-ExtraBlack', Arial, sans-serif;
+    color: #ffffff;
+    border-color: #000000;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    padding: auto;
+
+}
+
+@media only screen and (min-width: 769px) {
+    .button-menu-toggle {
+        display: none;
+    }
+}

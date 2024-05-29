@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>BrawlStrats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="container-nav">
+        <nav class="navbar">
+            <h1>BrawlStrats</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Sobre mi</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contactos</a></li>
+                <li><a href="Galeria.html">Galeria de Fotos</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </header>
+
+    <div class="Buscador">
+        <img id="personajes-brawl" src="Imagenes/personajes-brawl.png" alt="Personajes" width="300px">
+        <h2>Ingresa tu codigo para ver tus estadisticas</h2>
+        <input id="playerTagInput" type="text" name="q" placeholder="XXXXXXXX">
+        <button id="getPlayerInfoBtn" class="brawl-btn">Buscar</button>
+        <div id="playerInfo"></div>
+        <h3 id="errorMessage" class="hidden error-message">El Usuario no ha sido encontrado</h3>
+    </div>
+    <div class="estadisticas-jugador">
+        <h2>ESTADISTICAS DEL JUGADOR</h2>
+        <div class="contenedor-perfil">
+            <div class="columna-dat">
+                <div id="playerName">Nombre</div>
+            </div>
+        </div>
+        <div class="contenedor">
+            <div class="fila">
+                <div class="columna">MAXIMO DE TROFEOS
+                    <div class="mostrar-dato">
+                        <img class="imagen" src="Imagenes/trofeo.png" height="20">
+                        <span class="numero" id="playerHighTrophies">99999</span>
+                    </div>
+                </div>
+                <div class="columna">COPAS ACTUALES
+                    <div class="mostrar-dato">
+                        <img class="imagen" src="Imagenes/trofeo.png" height="20">
+                        <span class="numero" id="playerTrophies">99999</span>
+                    </div>
+                </div>
+                <div class="columna">CLUB
+                    <div class="mostrar-dato">
+                        <img class="imagen-compentitivo" src="Imagenes/competitivo.png" height="20">
+                        <span id="playerClub">Club</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="columna">VICTORIAS EN SOLO
+                    <div class="mostrar-dato">
+                        <img class="imagen" src="Imagenes/solo.png" height="20">
+                        <span class="numero" id="playerSoloWins">99999</span>
+                    </div>
+                </div>
+                <div class="columna">VICTORIA EN DUO
+                    <div class="mostrar-dato">
+                        <img class="imagen" src="Imagenes/Supervivencia_duo_logo.png" height="20">
+                        <span class="numero" id="playerDuoWins">99999</span>
+                    </div>
+                </div>
+                <div class="columna">VICTORIAS 3 VS 3
+                    <div class="mostrar-dato">
+                        <img class="imagen" src="Imagenes/3v3.png" height="20">
+                        <span class="numero" id="player3v3Wins">99999</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
